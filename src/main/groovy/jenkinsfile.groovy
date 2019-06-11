@@ -1,6 +1,6 @@
 node {
     stage('Archive') {
-        archive '**/target/*.jar'
+        archive '**/target/*.jarss'
     }
     stage('Deploy') {
         echo "Deploy is not yet implemented"
